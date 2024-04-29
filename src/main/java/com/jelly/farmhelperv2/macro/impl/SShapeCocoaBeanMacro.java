@@ -20,7 +20,7 @@ public class SShapeCocoaBeanMacro extends AbstractMacro {
     public void onEnable() {
         super.onEnable();
         if (!isPitchSet()) {
-            setPitch(-70f + (float) (Math.random() * 0.6));
+            setPitch(-45f + (float) (Math.random() * 0.06));
         }
         if (!isYawSet()) {
             setYaw(AngleUtils.getClosest());
